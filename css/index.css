@@ -9,52 +9,52 @@
     	/*font-size:6em;*/
     }
 	.section:nth-child(1){
-		background: url(../img/section1.jpg);
+		background: url(../img/section1.jpg) no-repeat;
 		position: relative;
         overflow: hidden;
 	}
 	.section:nth-child(2){
-		background:url(../img/section2.jpg);
+		background:url(../img/section2.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(3){
-		background: url(../img/section3.jpg);
+		background: url(../img/section3.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(4){
-		background:url(../img/section4.jpg);
+		background:url(../img/section4.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(5){
-		background: url(../img/section5.jpg);
+		background: url(../img/section5.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(6){
-		background: url(../img/section6.jpg);
+		background: url(../img/section6.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(7){
-		background: url(../img/section7.jpg);
+		background: url(../img/section7.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(8){
-		background: url(../img/section8.jpg);
+		background: url(../img/section8.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(9){
-		background: url(../img/section9.jpg);
+		background: url(../img/section9.jpg) no-repeat;
 		position: relative;
          overflow: hidden;
 	}
 	.section:nth-child(10){
-		background: url(../img/section10.jpg) bottom;
+		background: url(../img/section10.jpg) no-repeat bottom;
 		position: relative;
          overflow: hidden;
 	}
@@ -64,7 +64,7 @@
 	bottom: -410px;
 	width:100%;
 	height:392px;
-	background: url(../img/bg12.png);
+	background: url(../img/bg12.png) no-repeat;
 	transition: bottom 2s;
 }
 .bg1-2{
@@ -72,7 +72,7 @@
 	height:377px;
 	width:100%;
 	bottom:-377px;
-	background: url(../img/bg13.png);
+	background: url(../img/bg13.png) no-repeat;
 	transition: bottom 1s;
 }
 .mail{
@@ -82,7 +82,7 @@
     width: 375px;
     height: 26px;
     margin-left: -183px;
-    background-image: url(../img/logo.png);
+    background: url(../img/logo.png) no-repeat;
     z-index: 1;
     transition: top 1s;
 }
@@ -116,7 +116,7 @@
     top: 25%;
     margin: 0 0 0 -277px;
     text-indent: -9999px;
-    background-image: url(../img/slogan.png);
+    background: url(../img/slogan.png) no-repeat;
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
@@ -174,7 +174,7 @@
     opacity: 0;
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
-    transition: all 1s;
+    transition: all ;
 }
 .section2 h3{
 	position: absolute;
@@ -216,7 +216,7 @@
     height: 472px;
     margin-left: -396px;
     margin-bottom: 80px;
-    background-image: url(../img/bg31.png);
+    background: url(../img/bg31.png) no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -474,7 +474,7 @@
     width: 597px;
     height: 284px;
     margin-left: -507px;
-    background-image: url(../img/bg62.png);
+    background: url(../img/bg62.png) no-repeat;
     transition: all 1s;
 }
 .section6 strong{
@@ -498,7 +498,7 @@
 .section6 h3{
 	width: 561px;
     margin-left: -280px;
-    background-image: url(../img/t6.png);
+    background: url(../img/t6.png) no-repeat;
     position: absolute;
     left: 50%;
     top: 15%;
@@ -581,7 +581,7 @@
 .section7 h3 {
     width: 561px;
     margin-left: -280px;
-    background-image: url(../img/t7.png);
+    background: url(../img/t7.png) no-repeat;
     position: absolute;
     left: 50%;
     top: 15%;
@@ -631,7 +631,7 @@
     width: 100%;
     bottom: 100px;
     height: 215px;
-    background-image: url(../img/bg81.png);
+    background: url(../img/bg81.png) no-repeat;
 }
 .bg8-2{
     position: absolute;
@@ -640,7 +640,7 @@
     width: 164px;
     height: 117px;
     margin-left: -180px;
-    background-image: url(../img/bg82.png);
+    background: url(../img/bg82.png) no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -651,7 +651,7 @@
     width: 70px;
     height: 29px;
     margin-left: -330px;
-    background-image: url(../img/bg83.png);
+    background: url(../img/bg83.png) no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -662,7 +662,7 @@
     width: 43px;
     height: 26px;
     margin-left: -410px;
-    background-image: url(../img/bg84.png);
+    background: url(../img/bg84.png) no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -686,7 +686,7 @@
 .section8 h3 {
     width: 561px;
     margin-left: -280px;
-    background-image: url(../img/t8.png);
+    background: url(../img/t8.png) no-repeat;
     position: absolute;
     left: 50%;
     top: 15%;
@@ -746,7 +746,7 @@
     -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
     transition: all 1s .5s;
-    background-image: url(../img/t9.png);
+    background: url(../img/t9.png) no-repeat;
 }
 .section9 h3 span{
 	position: absolute;
@@ -754,7 +754,7 @@
     top: -48px;
     width: 89px;
     height: 90px;
-    background-image: url(../img/yixin.png);
+    background: url(../img/yixin.png) no-repeat;
 }
 .bg9-1,.bg9-2,.bg9-3{
 	padding-top:350px;
@@ -846,7 +846,7 @@
     margin-top: 220px;
     margin-left: -127px;
     text-indent: -9999px;
-    background-image: url(../img/btn.png);
+    background: url(../img/btn.png) no-repeat;
     opacity: 0;
     transition: all 1s;
 }
@@ -863,3 +863,5 @@
     font-size: 12px;
     color: #a0a0a0;
 }
+
+

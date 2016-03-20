@@ -1,0 +1,201 @@
+@media (max-width: 640px){
+    .section:nth-child(1){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(2){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(3){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(4){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(5){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(6){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(7){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(8){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(9){
+        background-size: 100% 100%;
+    }
+    .section:nth-child(10){
+        background-size: 100% 100%;
+    }
+    .bg1-1{
+        background: url(../img/bg12.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .bg1-2{
+    background: url(../img/bg13.png) no-repeat;
+    background-size: 100% 60%;
+    }
+    .mail{
+    background: url(../img/logo.png) no-repeat 45%;
+    background-size: 60% 60%;
+    }
+    .mail .mail-163{
+     font-size:18px;
+    }
+    .mail .mail-126{
+    font-size:18px;
+    }
+    .mail .mail-yeah{
+     font-size:18px;
+    }
+    .hgroup{
+   
+    top: 20%;
+    background: url(../img/slogan.png) no-repeat 50%;
+    background-size:35% 35%;
+    }
+    /*yipingwan*/
+
+    .bg2-1{
+        background: url(../img/bg21.png) 0 0 no-repeat;
+        background-size:100% 100%;
+    }
+    .bg2-2{
+        background: url(../img/bg22.png) right 0 no-repeat;
+        background-size:100% 100%;
+    }
+    .bg2-3{
+        background: url(../img/bg23.png) 50% 0 no-repeat;
+        background-size:60% 60%;
+    }
+    .section2 strong{
+    font-size: 18px;
+     margin-left: 96px;
+   }
+   .section2 h3{
+       margin-left: -96px;
+       background-repeat: no-repeat;
+       background: url(../img/t2.png) no-repeat;
+       background-size:45% 45%;
+    }
+    .section2 .p1{
+    width: 240px;
+    margin-left: -105px;
+    font-size: 12px;
+    }
+     /*erping wan*/
+    .bg3-1{
+        width: 320px;
+         margin-left: -160px;
+        background-size:100% 100%;
+    }
+    .bg3-2{
+        background-size:100% 100%;
+    }
+    .bg3-3{
+        background-size:30% 30%;
+    }
+     .section3 strong{
+     font-size: 18px;
+      margin-left: 96px;
+    }
+    .section3 h3{
+        margin-left: -96px;
+        background-repeat: no-repeat;
+        background: url(../img/t3.png) no-repeat;
+        background-size:45% 45%;
+     }
+     .section3 .p3{
+     width: 240px; 
+     margin-left: -115px;
+     font-size: 12px;
+     }
+    /*sanping wan*/
+    .bg4-1{
+        background-size:100% 100%;
+    }
+    .bg4-2{
+        background-size:100% 100%;
+    }
+    .bg4-3{
+        background-size:100% 100%;
+    }
+    .section4 strong{
+     font-size: 18px;
+      margin-left: 96px;
+    }
+    .section4 h3{
+        margin-left: -96px;
+        background-repeat: no-repeat;
+        background: url(../img/t4.png) no-repeat;
+        background-size:45% 45%;
+     }
+    .section4 .p4{
+     width: 240px; 
+     margin-left: -115px;
+     font-size: 12px;
+     }
+    /*siping wan*/
+    .bg5-1{
+        background-size:100% 100%;
+    }
+    .bg5-2{
+        background-size:100% 100%;
+    }
+    .bg5-3{
+        background-size:100% 100%;
+    }
+    /*wuping wan*/
+    .bg6-1{
+        background-size:100% 100%;
+    }
+    .bg6-2{
+        background-size:100% 100%;
+    }
+    .bg6-3{
+        background-size:100% 100%;
+    }
+    /*liuping wan*/
+    .bg7-1{
+        background-size:100% 100%;
+    }
+    .bg7-2{
+        background-size:100% 100%;
+    }
+    .bg7-3{
+        background-size:100% 100%;
+    }
+    /*qiping wan*/
+    .bg8-1{
+        background-size:100% 100%;
+    }
+    .bg8-2{
+        background-size:100% 100%;
+    }
+    .bg8-3{
+        background-size:100% 100%;
+    }
+    /*baping wan*/
+    .bg9-1{
+        background-size:100% 100%;
+    }
+    .bg9-2{
+        background-size:100% 100%;
+    }
+    .bg9-3{
+        background-size:100% 100%;
+    }
+    /*jiuping wan*/
+    .bg10-1{
+        background-size:100% 100%;
+    }
+    .bg10-2{
+        background-size:100% 100%;
+    }
+    .bg10-3{
+        background-size:100% 100%;
+    }
+    /*shiping wan*/
+}

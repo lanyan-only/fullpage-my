@@ -9,6 +9,8 @@ $(document).ready(function() {
     	navigationTooltips:['首页','视觉','交互','皮肤','功能','待办邮件','联系人邮件','科技','连接易信','马上体验'],
     	showActiveTooltip:false,//不显示信息，鼠标划上去显示
         afterLoad:function(link,index){  //link 为锚链接   index来到哪一屏
+           var cw=document.documentElement.clientWidth;
+           console.log(cw);
            if(link=="s1"){
               $(".bg1-2").css({bottom:0});
               $(".bg1-1").css({bottom:100});
@@ -16,28 +18,54 @@ $(document).ready(function() {
               $(".hgroup").css({opacity:1,transform:"scale(1.1,1.1)"});
           }
           if(link="s2"){
-          	$(".bg2-1").css({opacity:1,marginLeft:-608});
-          	$(".bg2-2").css({opacity:1,marginLeft:-280});
-          	$(".bg2-3").css({bottom:"15%"});
-          	$(".section2 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-256});
-          	$(".section2 h3").css({opacity:1,transform:"scale(1,1)"});
-          	$(".section2 .p1").css({opacity:1});
+             if(cw<520){
+                $(".bg2-3").css({bottom:"0%"});
+                $(".section2 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-96}); 
+                $(".section2 h3").css({opacity:1,transform:"scale(1,1)"});
+                $(".section2 .p1").css({opacity:1});              
+              }else{
+              $(".bg2-1").css({opacity:1,marginLeft:-608});
+              $(".bg2-2").css({opacity:1,marginLeft:-280});
+              $(".bg2-3").css({bottom:"15%"});
+              $(".section2 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-256});
+              $(".section2 h3").css({opacity:1,transform:"scale(1,1)"});
+              $(".section2 .p1").css({opacity:1});
+              }	
           }
           if(link="s3"){
-          	$(".bg3-1").css({opacity:1});
-          	$(".bg3-2").css({opacity:1});
-          	$(".bg3-3").css({opacity:1,marginLeft:-126});
-          	$(".section3 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-256});
-            $(".section3 .p3").css({opacity:1,marginLeft:-480});
-          	$(".section3 h3").css({opacity:1,transform:"scale(1,1"});
+            if(cw<520){
+                $(".bg3-1").css({opacity:1});
+                $(".bg3-2").css({opacity:1});
+                $(".bg3-3").css({opacity:1,marginLeft:-36});
+                $(".section3 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-96});
+                $(".section3 .p3").css({opacity:1});
+                $(".section3 h3").css({opacity:1,transform:"scale(1,1"});
+              }else{
+               $(".bg3-1").css({opacity:1});
+               $(".bg3-2").css({opacity:1});
+              $(".bg3-3").css({opacity:1,marginLeft:-126});
+              $(".section3 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-256});
+              $(".section3 .p3").css({opacity:1,marginLeft:-480});
+              $(".section3 h3").css({opacity:1,transform:"scale(1,1"});
+              }
           }
           if(link="s4"){
-          	$(".bg4-1").css({bottom:"15%"});
-          	$(".bg4-2").css({bottom:"15%"});
-          	$(".bg4-3").css({bottom:"15%"});
-          	$(".section4 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-246});
-            $(".section4 .p4").css({opacity:1});
-          	$(".section4 h3").css({opacity:1,transform:"scale(1,1"});
+            if(cw<520){
+              $(".bg4-1").css({bottom:"15%"});
+              $(".bg4-2").css({bottom:"15%"});
+              $(".bg4-3").css({bottom:"15%"});
+              $(".section4 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-96});
+              $(".section4 .p4").css({opacity:1});
+              $(".section4 h3").css({opacity:1,transform:"scale(1,1"});
+            }else{
+              $(".bg4-1").css({bottom:"15%"});
+              $(".bg4-2").css({bottom:"15%"});
+              $(".bg4-3").css({bottom:"15%"});
+              $(".section4 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-246});
+              $(".section4 .p4").css({opacity:1});
+              $(".section4 h3").css({opacity:1,transform:"scale(1,1"});
+            }
+          	
           }
           if(link="s5"){
           	$(".section5 strong").css({opacity:1,transform:"scale(1,1)",marginLeft:-246});
@@ -86,6 +114,7 @@ $(document).ready(function() {
         },
         onLeave:function(index,nextIndex){
         //index  离开哪一屏   nextIndex去哪一屏  第三个参数是up和down，代表向上向下滑
+          var cw=document.documentElement.clientWidth;
         	if(index=1){
               $(".bg1-2").css({bottom:-370});
               $(".bg1-1").css({bottom:-410});
@@ -94,19 +123,24 @@ $(document).ready(function() {
 
            }
            if(index=2){
-           	$(".bg2-1").css({opacity:0,marginLeft:-1108});
-           	$(".bg2-2").css({opacity:0,marginLeft:320});
-           	$(".bg2-3").css({bottom:"-40%"});
-           	$(".section2 strong").css({opacity:0,transform:"scale(0,0)",marginLeft:-256});
-            $(".section2 h3").css({opacity:0,transform:"scale(0,0)"});
-            $(".section2 .p1").css({opacity:0});
+            if(cw<540){
+              $(".section2 strong").css({opacity:0,transform:"scale(0,0)",marginLeft:256});
+            }else{
+              $(".bg2-1").css({opacity:0,marginLeft:-1108});
+              $(".bg2-2").css({opacity:0,marginLeft:320});
+              $(".bg2-3").css({bottom:"-40%"});
+              $(".section2 strong").css({opacity:0,transform:"scale(0,0)",marginLeft:-256});
+              $(".section2 h3").css({opacity:0,transform:"scale(0,0)"});
+              $(".section2 .p1").css({opacity:0});
+            }
+           	
            }
            if(index=3){
            	$(".bg3-1").css({opacity:0});
            	$(".bg3-2").css({opacity:0});
            	$(".bg3-3").css({opacity:0,marginLeft:"50%"});
             $(".section3 strong").css({opacity:0,transform:"scale(0,0)",marginLeft:-256});
-            $(".section3 .p3").css({opacity:0,marginLeft:'-100%'});
+            $(".section3 .p3").css({opacity:0});
             $(".section3 h3").css({opacity:0,transform:"scale(0.5,0.5)"});
            }
            if(index=4){
